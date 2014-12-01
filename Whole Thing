@@ -12,7 +12,7 @@ import matplotlib as plt
 DEVELOPER_KEY = "AIzaSyCcAk22clCs9U6Gs5MKwURDI9iXGy26i88" 
 YOUTUBE_API_SERVICE_NAME = "youtube"
 YOUTUBE_API_VERSION = "v3"
-argparser.add_argument("--q", help="Search term", default="cleanandclear")
+argparser.add_argument("--q", help="Search term", default="cleanandclearindia")
 #change the default to the search term you want to search
 argparser.add_argument("--max-results", help="Max results", default=25)
 #default number of results which are returned. It can very from 0 - 100
